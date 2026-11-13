@@ -8,9 +8,68 @@ body {
 .dark-mode {
   background-color: black;
   color: white;
+  form{
+  background-color: #222;
+}
+.col{
+  background-color: #222;
+}
+.spent{
+  background-color: #222;
+}
 }
 
-form{
-  justify-content: center;
+.transaction-category{
+  
+  background-color: #777;
+}
+.btn-dark{
+ margin-bottom: 2%;
+ justify-content: center;
+ text-align: center;
+}
+h1{
   text-align: center;
+}
+.delete-btn{
+  background-color: red;
+  color: white;
+}
+span{
+  padding-left: 2%;
+}
+.row{
+  display: flex;
+}
+.col {
+  background-color: #bbb;
+  float: left;
+  width: 45%;
+  padding: 2%;
+  margin-left: 1%;
+
+}
+.container{
+  width: 75%;
+  padding: 5%;
+  margin: auto;
+  background-color: #bbb;
+  justify-content: center;
+}
+
+.spent{
+margin: auto;
+text-align: center;
+background-color: #bbb;
+margin: 1%;
+}
+input{
+  width: 90%;
+}
+select{
+  width: 90%;
+}
+.btn-add{
+  padding-left: 2%;
+  width: 90%;
 }

@@ -10,6 +10,8 @@
     src="https://cdn.jsdelivr.net/npm/chart.js"
     onerror="chartLibraryFailed = true; showToast('Chart library failed to load'); renderChart(transactions);"
   ></script>
+
+  
 </head>
 <body>
 
@@ -18,11 +20,13 @@
   <main>
     <section id="input-section">
       <h1>Expense &amp; Budget Visualizer</h1>
-      <button onclick="togglemode()">Toggle dark mode</button>
+      <div class="btn-dark"> <button onclick="togglemode()">Toggle dark mode</button></div>
       <!-- Input Form -->
-      <form id="expense-form">
+      <form id="expense-form" class="container">
+      
         <div class="form-group">
           <label for="item-name">Item Name</label>
+          <br>
           <input
             type="text"
             id="item-name"
@@ -35,6 +39,7 @@
 
         <div class="form-group">
           <label for="item-amount">Amount ($)</label>
+          <br>
           <input
             type="number"
             id="item-amount"
@@ -48,6 +53,7 @@
 
         <div class="form-group">
           <label for="item-category">Category</label>
+          <br>
           <select id="item-category" name="item-category">
             <option value="Food">Food</option>
             <option value="Transport">Transport</option>
@@ -55,31 +61,36 @@
           </select>
         </div>
 
-        <button type="submit">Add Expense</button>
+        <button type="submit" class="btn-add">Add Expense</button>
 
         <div id="form-errors" role="alert"></div>
       </form>
 
       <!-- Balance Display -->
-      <div id="balance-display">
+      <div id="balance-display" class="spent">
         <span class="balance-label">Total Spent</span>
+        <br>
         <span id="balance-amount">$0.00</span>
       </div>
-
-      <!-- Pie Chart -->
-      <div id="chart-container">
-        <canvas id="spending-chart"></canvas>
-        <div id="chart-empty-state">No spending data available.</div>
-        <div id="chart-error">Chart could not be loaded.</div>
-      </div>
-    </section>
-
-    <section id="list-section">
+    <div class="row">
+    <section id="list-section" class="col">
       <h2>Transactions</h2>
+      
       <ul id="transaction-list">
         <!-- Transactions rendered here by JS -->
       </ul>
     </section>
+      <!-- Pie Chart -->
+      <div id="chart-container" class="col">
+        <h2>Spending by Category</h2>
+        <canvas id="spending-chart"></canvas>
+        <div id="chart-empty-state">No spending data available.</div>
+        <div id="chart-error">Chart could not be loaded.</div>
+      </div>
+      </div>
+    </section>
+
+    
   </main>
 
   <script src="js/app.js" defer></script>
