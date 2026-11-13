@@ -1,0 +1,359 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold project files and HTML skeleton": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489093331
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489113618
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489163151
+      }
+    ],
+    "2.1 Define the in-memory state and storage constants in `js/app.js`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489093660
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489168485
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489201984
+      }
+    ],
+    "2.2 Implement `loadFromStorage()`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489093819
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489207675
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489285873
+      }
+    ],
+    "2.3 Implement `saveToStorage(transactions)`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489093960
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489212627
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489291115
+      }
+    ],
+    "3.1 Implement `validateForm(name, amount, category)`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489094135
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489296765
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489468104
+      }
+    ],
+    "3.2 Implement `resetForm()`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489094227
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489301908
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489473280
+      }
+    ],
+    "3.3 Implement `handleFormSubmit(event)`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489094304
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489490097
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489680173
+      }
+    ],
+    "4.1 Implement `renderBalance(transactions)`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489094396
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489307092
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489478669
+      }
+    ],
+    "5.1 Implement `renderTransactionList(transactions)`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489094479
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489495422
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489685935
+      }
+    ],
+    "5.2 Implement `handleDelete(id)`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489094553
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489708064
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489779560
+      }
+    ],
+    "6.1 Implement `aggregateByCategory(transactions)`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489094633
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489312599
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489484425
+      }
+    ],
+    "6.2 Implement `renderChart(transactions)`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489094862
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489500761
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489691106
+      }
+    ],
+    "7.1 Implement `showToast(message, type = 'warning')`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489095129
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489506060
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489696380
+      }
+    ],
+    "7.2 Wire CDN failure detection": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489095265
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489713070
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489784898
+      }
+    ],
+    "8.1 Implement `renderAll()`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489095400
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489791225
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489823152
+      }
+    ],
+    "8.2 Implement initialization block (runs on script load)": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489095501
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489828736
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489872761
+      }
+    ],
+    "9. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489095593
+      },
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489879032
+      }
+    ],
+    "10.1 Write layout and typography styles in `css/style.css`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489095684
+      }
+    ],
+    "10.2 Write toast and error styles in `css/style.css`": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489095807
+      }
+    ],
+    "11. Final checkpoint — Full cross-browser and regression check": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489095903
+      }
+    ],
+    "2. Implement data models and localStorage access layer": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489291235
+      }
+    ],
+    "4. Implement balance display rendering": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489478752
+      }
+    ],
+    "3. Implement form validation and add-transaction handler": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489680308
+      }
+    ],
+    "6. Implement category aggregation and pie chart": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489691226
+      }
+    ],
+    "5. Implement transaction list rendering and delete": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489779684
+      }
+    ],
+    "7. Implement toast notification and CDN failure handling": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489785016
+      }
+    ],
+    "8. Implement `renderAll` and application initialization": [
+      {
+        "executionId": "48a4f124-64d0-4ee3-abc2-a66b8727c7b1",
+        "chatSessionId": "sess_11c1ebc8-478f-4e9f-a69d-f4ee948488d4",
+        "timestamp": 1794489872926
+      }
+    ]
+  }
+}
